@@ -1,8 +1,6 @@
 - 👋 Hi, I’m Iasonas Katechis
-- 👀 I’m interested in Biophysics and Data Science
-- 🌱 I’m currently learning Machine Learning with Python
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 👀 I’m interested everything related to Machine Learning and Deep Learning. Especially Machine Vision!
+- 🌱 I’m currently learning Data Science with Python
 
 <!---
 ikatechis/ikatechis is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
