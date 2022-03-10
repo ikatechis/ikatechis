@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Iasonas Katechis
-- 👀 I’m interested everything related to Machine Learning and Deep Learning. Especially Machine Vision!
+- 👀 I’m interested in everything related to Machine Learning and Deep Learning. Especially Machine Vision!
 - 🌱 I’m currently learning Data Science with Python
 
 <!---
