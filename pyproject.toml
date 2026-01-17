@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "surgical-guide-generator"
+version = "0.1.0"
+description = "Automated pipeline for generating 3D-printable dental implant surgical guides"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    {name = "IkaTechIS"}
+]
+dependencies = [
+    "numpy>=1.21.0",
+    "scipy>=1.7.0",
+    "trimesh>=3.21.0",
+    "manifold3d>=2.3.0",
+    "scikit-image>=0.19.0",
+    "pymeshlab>=2022.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "black>=22.0.0",
+    "mypy>=0.990",
+]
+
+[project.scripts]
+surgical-guide = "surgical_guide_generator.cli:main"
+
+[tool.black]
+line-length = 100
+target-version = ['py38', 'py39', 'py310', 'py311']
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+
+[tool.pytest.ini_options]
+testpaths = ["surgical_guide_generator/tests"]
+python_files = "test_*.py"
+python_classes = "Test*"
+python_functions = "test_*"
