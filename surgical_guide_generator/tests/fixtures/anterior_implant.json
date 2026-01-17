@@ -1,0 +1,15 @@
+{
+  "implant_sites": [
+    {
+      "site_id": "11",
+      "position": [5.5, 8.2, 10.5],
+      "direction": [0.1, -0.15, -0.983],
+      "implant_diameter": 3.3,
+      "implant_length": 13.0,
+      "sleeve_outer_diameter": 4.5,
+      "sleeve_inner_diameter": 3.5,
+      "sleeve_height": 5.5,
+      "clearance": 0.05
+    }
+  ]
+}
