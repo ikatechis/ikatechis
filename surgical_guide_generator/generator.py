@@ -38,7 +38,7 @@ class GenerationResult:
     operations_performed: List[str] = field(default_factory=list)
     metrics: Dict[str, Any] = field(default_factory=dict)
     warnings: List[str] = field(default_factory=list)
-    error_message: str = ""
+    error_message: Optional[str] = None
 
     def to_dict(self) -> Dict[str, Any]:
         """Convert result to dictionary (excluding mesh).
